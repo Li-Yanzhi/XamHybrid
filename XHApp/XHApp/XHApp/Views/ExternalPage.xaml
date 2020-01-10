@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:webview="clr-namespace:Xam.Plugin.WebView.Abstractions;assembly=Xam.Plugin.WebView.Abstractions"
              mc:Ignorable="d"
-             Title="Microsoft"
+             Title="百度"
              x:Class="XHApp.Views.ExternalPage">
     <ContentPage.Content>
         <StackLayout>
@@ -13,7 +13,9 @@
                                        HorizontalOptions="FillAndExpand" 
                                        VerticalOptions="FillAndExpand"
                                        ContentType="Internet"
-                                       Source="https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph/"/>
+                                       Source="https://www.baidu.com"/>
+
+            <!--https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph/-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

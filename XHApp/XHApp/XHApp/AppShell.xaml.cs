@@ -12,7 +12,7 @@ namespace XHApp
         {
             InitializeComponent();
 
-            Routing.RegisterRoute("test", typeof(TestPage));
+            //Routing.RegisterRoute("test", typeof(TestPage));
         }
     }
 }
