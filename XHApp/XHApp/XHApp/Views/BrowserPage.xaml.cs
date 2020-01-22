@@ -20,6 +20,7 @@ namespace XHApp.Views
         public BrowserPage()
         {
             InitializeComponent();
+
             SetWebviewCallbackAndEvents();
         }
 

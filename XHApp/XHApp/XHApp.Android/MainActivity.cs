@@ -6,8 +6,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Xam.Plugin.WebView.Droid;
 using Plugin.Permissions;
+using Plugin.HybridWebView.Droid;
 
 namespace XHApp.Droid
 {
@@ -23,7 +23,7 @@ namespace XHApp.Droid
 
             global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
-            FormsWebViewRenderer.Initialize();
+            HybridWebViewRenderer.Initialize();
             Plugin.CurrentActivity.CrossCurrentActivity.Current.Init(this, savedInstanceState);
             global::ZXing.Net.Mobile.Forms.Android.Platform.Init();
 

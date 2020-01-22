@@ -14,12 +14,23 @@ namespace XHApp.Services
         {
             items = new List<Item>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "1 First item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "2 Second item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "3 Third item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "4 Fourth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "5 Fifth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "6 Sixth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "第 7 个", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "第 8 个", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "第 9 个", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "第 10 个", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "第 11 个", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "第 12 个", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "第 13 个", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "第 14 个", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "第 15 个", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "第 16 个", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "第 17 个", Description="This is an item description." }
             };
         }
 

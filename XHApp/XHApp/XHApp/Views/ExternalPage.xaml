@@ -9,13 +9,14 @@
              x:Class="XHApp.Views.ExternalPage">
     <ContentPage.Content>
         <StackLayout>
-            <webview:FormsWebView x:Name="appWebView"
+            <!--<webview:FormsWebView x:Name="appWebView"
                                        HorizontalOptions="FillAndExpand" 
                                        VerticalOptions="FillAndExpand"
                                        ContentType="Internet"
-                                       Source="https://www.baidu.com"/>
+                                       Source="https://www.baidu.com"/>-->
 
             <!--https://cloud-platform-assets.azurewebsites.net/intelligent-security-graph/-->
+            <WebView x:Name="webView" WidthRequest="1000" HeightRequest="1000" Source="https://www.baidu.com" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
