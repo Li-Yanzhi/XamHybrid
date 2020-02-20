@@ -67,6 +67,34 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <BundleResource Include="www\scss\base\_page.scss" />
+    <BundleResource Include="www\scss\base\_variables.scss" />
+    <BundleResource Include="www\scss\components\_buttons.scss" />
+    <BundleResource Include="www\scss\components\_divider.scss" />
+    <BundleResource Include="www\scss\freelancer.scss" />
+    <BundleResource Include="www\scss\layout\_contact.scss" />
+    <BundleResource Include="www\scss\layout\_footer.scss" />
+    <BundleResource Include="www\scss\layout\_masthead.scss" />
+    <BundleResource Include="www\scss\layout\_navbar.scss" />
+    <BundleResource Include="www\scss\layout\_portfolio.scss" />
+    <BundleResource Include="www\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <BundleResource Include="www\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <BundleResource Include="www\vendor\bootstrap\js\bootstrap.js.map" />
+    <BundleResource Include="www\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-brands-400.eot" />
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-brands-400.ttf" />
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-brands-400.woff" />
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-brands-400.woff2" />
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-regular-400.eot" />
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-regular-400.ttf" />
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-regular-400.woff" />
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-regular-400.woff2" />
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-solid-900.eot" />
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-solid-900.ttf" />
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-solid-900.woff" />
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-solid-900.woff2" />
+    <BundleResource Include="www\vendor\jquery\jquery.min.map" />
+    <BundleResource Include="www\vendor\jquery\jquery.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -173,5 +201,143 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\tab_ms.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tab_app.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\css\freelancer.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\css\freelancer.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\img\avataaars.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\img\portfolio\cabin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\img\portfolio\cake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\img\portfolio\circus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\img\portfolio\game.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\img\portfolio\safe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\img\portfolio\submarine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\js\contact_me.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\js\contact_me.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\js\freelancer.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\js\freelancer.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\js\jqBootstrapValidation.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\js\jqBootstrapValidation.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\mail\contact_me.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\bootstrap\js\bootstrap.bundle.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\bootstrap\js\bootstrap.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\bootstrap\js\bootstrap.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\all.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\all.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\brands.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\brands.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\fontawesome.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\fontawesome.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\regular.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\regular.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\solid.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\solid.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\svg-with-js.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\svg-with-js.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\v4-shims.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\css\v4-shims.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-brands-400.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-regular-400.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\fontawesome-free\webfonts\fa-solid-900.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\jquery\jquery.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\jquery\jquery.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\jquery\jquery.slim.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\jquery\jquery.slim.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\jquery-easing\jquery.easing.compatibility.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\jquery-easing\jquery.easing.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="www\vendor\jquery-easing\jquery.easing.min.js" />
   </ItemGroup>
 </Project>
